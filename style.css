@@ -25,10 +25,11 @@ canvas {
   position: absolute;
   top: 0;
   height: 60px;
-  color: white;
+  color: rgb(145, 183, 196);
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100vw;
-  background-color: #161208a6
+
+
 }
