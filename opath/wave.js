@@ -37,7 +37,6 @@ function wave(){
       rect(width/5,-180,(width/3)-(width/5),80);
       noFill();
       stroke(12,18,20);
-
     }
     else{
       var angle = offset + -x * lambda; //lambda = 0.05
@@ -50,6 +49,6 @@ function wave(){
   rotate(atan(height/(2*width)));
 
   endShape();
-  offset += 0.2;
+  offset += 0.06;
 
 }
