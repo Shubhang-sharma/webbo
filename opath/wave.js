@@ -1,8 +1,10 @@
 let k;
+let l;
+let offset = 0;
 function setup() {
   createCanvas(windowWidth,windowHeight);
   k = createVector(windowWidth/2,0);
-  l = createVector()
+  l = createVector();
 }
 
 function draw() {
@@ -26,5 +28,6 @@ function wave(){
   }
   vertex(width, height);
   endShape();
-  rotate()
+  offset += 0.25;
+
 }
