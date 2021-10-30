@@ -13,6 +13,18 @@ canvas {
   left: 0;
   filter: blur(2px);
 }
+#list{
+  z-index: -1 ;
+  position: fixed;
+  top: 0;left: 0;
+}
+
+#opbg{
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
 .content{
   position:relative;
   top: 45vh;
@@ -41,6 +53,5 @@ canvas {
 
 }
 .projects:hover{
-  background-color: rgba(7,100,100,0.  2);
-
+  background-color: rgba(7,100,100,0.2);
 }
