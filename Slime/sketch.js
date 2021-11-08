@@ -8,12 +8,19 @@ function setup() {
   for (j = 0; j < 22; j++) {
     nodes[j] = new objects(random(-50, 50), random(-50, 50));
   }
+  let buttonOP = createButton("Optical Path");
+  buttonOP.id("path");
+  buttonOP.position(200,200);
+  clear();
+  buttonOP.onclick();
 
 }
 
 function draw() {
   background(20, 160);
   translate(windowWidth / 2, windowHeight / 2);
+
+
 
   for (node of nodes) {
     node.make();
@@ -28,4 +35,5 @@ function draw() {
       node.stick(h);
     }
   }
+
 }
