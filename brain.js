@@ -1,3 +1,5 @@
-document.getElementById("path").onclick = function () {
-  document.getElementById("path").style.backgroundColor = "blue";
-    }
+document.getElementById("laser").onmouseover = function() {laser()};
+function laser(){
+  document.getElementById("sketch").color = "grey";
+
+}
